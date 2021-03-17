@@ -39,7 +39,7 @@ module.exports = {
             var options = {
               method: 'POST',
               headers: {
-                Authorization: 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJ1c2VyIjp7ImlkIjozMDExMjg3NTksImVtYWlsIjoibWFyY2Vsby5zaGl0YWt1Ym9AbW92YXRzLmNvbS5iciIsImFwcGxpY2F0aW9uIjozMDAwODM0MjJ9fQ.IAys_uiM-n2GZ78TS9APT6VrheZ_Tj9oWrueC-CEcOvnMQqNDj6fv-h5vaIyWqA38ooxn4jT0Gxg_RSyKIT96w',
+                Authorization: 'Bearer your_token',
                 'Content-Type': 'application/json'
               },
               body: JSON.stringify({ query })
